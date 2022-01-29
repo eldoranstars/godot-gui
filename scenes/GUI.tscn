@@ -12,6 +12,9 @@ custom_constants/margin_top = 20
 custom_constants/margin_left = 20
 custom_constants/margin_bottom = 20
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Tween" type="Tween" parent="."]
 
@@ -26,8 +29,6 @@ size_flags_horizontal = 3
 margin_right = 1326.0
 
 [node name="EnergyBar" parent="Bars" instance=ExtResource( 3 )]
-visible = false
 margin_top = 57.0
 margin_right = 1326.0
 margin_bottom = 97.0
-
