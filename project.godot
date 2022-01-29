@@ -20,7 +20,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Design a GUI layout (start)"
+config/name="Code a life bar (start)"
 run/main_scene="res://LevelMockup.tscn"
 config/icon="res://icon.png"
 
