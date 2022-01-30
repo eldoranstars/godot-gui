@@ -24,6 +24,10 @@ config/name="Code a life bar (start)"
 run/main_scene="res://LevelMockup.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+PlayerVars="*res://scripts/Player.gd"
+
 [display]
 
 window/size/width=800
