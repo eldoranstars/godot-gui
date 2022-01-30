@@ -18,7 +18,14 @@ margin_right = 0.0
 margin_bottom = 0.0
 
 [node name="Bars" parent="GUI" index="1"]
-margin_bottom = 748.0
+margin_right = 780.0
+margin_bottom = 430.0
+
+[node name="LifeBar" parent="GUI/Bars" index="0"]
+margin_right = 760.0
+
+[node name="EnergyBar" parent="GUI/Bars" index="1"]
+margin_right = 760.0
 
 [node name="Characters" type="Node2D" parent="."]
 
